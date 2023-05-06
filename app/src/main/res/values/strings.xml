@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Weasely Math</string>
+    <string name="hogwartss">this is hogwarts</string>
+    <string name="reset">Reset</string>
+    <string name="exit">Exit</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="ron_is_in_big_trouble_please_help_him_sir_hit_the_hogwarts_logo">           Ron is in big trouble, please help him sir!,hit the hogwarts logo!</string>
+    <string name="todo3">TODO</string>
+    <string name="answer">Your answer</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="todo8">TODO</string>
+    <string name="todo9">TODO</string>
+    <string name="todo00">TODO</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="aaaah_yong_witches_and_wizards_i_see_lets_see_how_well_you_can_solve_this_problem">Aaaah!                        Yong Witches and Wizards I see! lets see how well you can solve this problem</string>
+    <string name="todo90">TODO</string>
+    <string name="todo55">TODO</string>
+    <string name="wonderful_mr_weasely_remember_help_will_always_be_given_at_hogwarts_to_those_who_ask_for_it">Wonderful Mr. weasely! Remember, Help will always be given at hogwarts to those who ask for it</string>
+    <string name="next">Next</string>
+    <string name="title_activity_main11">MainActivity11</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="answer2">Answer</string>
+</resources>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    tools:context=".MainActivity6">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="548dp"
+        android:contentDescription="@string/todo4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maraudersmap" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="491dp"
+        android:contentDescription="@string/todo6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maraudersmap" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="458dp"
+        android:contentDescription="@string/todo6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maraudersmap" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="576dp"
+        android:contentDescription="@string/todo6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maraudersmap" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="673dp"
+        android:background="@color/RedHarry"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="VisualLintBounds" />
+
+    <Button
+        android:id="@+id/buttonreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:fontFamily="@font/almendra_sc"
+        android:minHeight="48dp"
+        android:text="@string/reset"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="44dp"
+        android:background="@color/white"
+        android:fontFamily="@font/almendra_sc"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="@string/exit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintOverlap,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="540dp"
+        android:contentDescription="@string/todo9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maraudersmap" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="448dp"
+        android:contentDescription="@string/todo8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maraudersmap" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="317dp"
+        android:layout_marginBottom="485dp"
+        android:contentDescription="@string/todo5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maraudersmap" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="175dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="365dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/answer"
+        android:inputType="number"
+        android:textColorHint="#D32F2F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,VisualLintOverlap" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="331dp"
+        android:layout_height="364dp"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/todo00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fredandgeorgeweasle"
+        tools:ignore="VisualLintBounds" />
+
+    <Button
+        android:id="@+id/buttoncheck"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginBottom="379dp"
+        android:background="@color/RedHarry"
+        android:fontFamily="@font/almendra_sc"
+        android:text="@string/check_answer"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck,VisualLintOverlap" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="211dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginBottom="176dp"
+        android:contentDescription="@string/todo90"
+        android:rotation="60"
+        android:rotationX="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bubble"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="413dp"
+        android:layout_marginBottom="217dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="Wow! how many is there ron?"
+        android:textAlignment="center"
+        android:textColor="@color/RedHarry"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+</android.support.constraint.ConstraintLayout>
